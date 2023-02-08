@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: url(/Images/sabri-tuzcu-wunVFNvqhfE-unsplash.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+img {
+    width: 100%;
+}
+
+.containery {
+    margin: auto;
+    margin-top: 85px;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+}
+
+.skill-card {
+    width: 207px;
+    background-color: white;
+    border-radius: 3vw;
+    overflow-y: hidden;
+    margin: 1vw;
+    box-shadow: 1vw 1vw 3vw 1vw;
+}
+
+.skill-card:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.skill-card p {
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* .skill-image {
+    width: 20vw;
+    height: 10vw;
+} */
+
+.card-img {
+    width: 207px;
+    height: 115px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    position: fixed;
+    bottom: 0vw;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 100%;
+    background-color: #202124;
+}
+
+.footer-img:hover {
+    scale: 1.2;
+    border-bottom: 2px solid mediumslateblue;
+    padding-bottom: 2px;
+}

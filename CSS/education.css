@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containery {
+    margin: 6vw;
+}
+
+.box {
+    width: 90%;
+    margin: auto;
+    margin-top: 1vw;
+    background-color: #000000b5;
+    padding: 2vw;
+    border-radius: 2vw;
+}
+
+.box h2 {
+    color: yellowgreen;
+    border-bottom: 1px solid;
+}
+
+.box h3 {
+    background-color: #35363ac2;
+    color: azure;
+    font-size: 2vw;
+    font-weight: 100;
+    margin: 0;
+    line-height: normal;
+}
+
+.box span {
+    color: red;
+}
