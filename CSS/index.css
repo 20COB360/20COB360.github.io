@@ -7,7 +7,7 @@ body {
 
 .container-fluid {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap !important;
 }
 
 .navbar {
@@ -200,12 +200,39 @@ img {
         width: 98vw;
     }
 
+    .image-box {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .profile-box {
+        width: 45%;
+    }
+
     .link-box {
         display: inline-block;
-        width: 25px;
+        /* width: 20%; */
+    }
+
+    .my-links {
+        display: flex;
+        justify-content: center;
+        width: 61%;
     }
 
     .footer {
         height: 45px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .navbar-brand {
+        font-size: 16px;
+    }
+
+    .navbar-toggler {
+        padding: 0;
     }
 }
